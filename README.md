@@ -62,7 +62,7 @@
         WHERE p.sid = s.socio_id) );
     ```
  
-* Q7. Trova i nomi dei soci che hanno prenotato tutte le barche che si chiamano iniziando con ','.
+* Q7. Trova i nomi dei soci che hanno prenotato tutte le barche che si chiamano iniziando con 'typhoon'.
      ```sh
     SELECT s.socio_id, s.snome
     FROM soci AS s
